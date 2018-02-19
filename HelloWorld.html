@@ -1,0 +1,25 @@
+const Button=()=>{
+
+return (<button>Hi Priyanka</button>);
+};
+
+class Button1 extends React.Component{
+render(){
+return(
+<button>Hello Priyanka</button>
+)}
+};
+
+class App extends React.Component{
+render(){
+return(
+<div>
+<Button/>
+<br/>
+<Button1/>
+</div>
+)}
+};
+
+
+ReactDOM.render(<App/>,mountNode)
